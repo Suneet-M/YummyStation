@@ -1,5 +1,5 @@
 {
-  "salads": [
+  "Salads": [
     {
       "id": "salmon-couscous-and-arugula-salad",
       "name": "Salmon Couscous & Arugula Salad",
@@ -19,7 +19,7 @@
       "url": "https://www.eatclub.com/s/dish/Pear-Goat-Cheese/"
     }
   ],
-  "sandwiches": [
+  "Sandwiches": [
     {
       "id": "chipotle-shrimp-wrap",
       "name": "Chipotle Shrimp Wrap",
@@ -39,7 +39,7 @@
       "url": "https://www.eatclub.com/s/dish/very-veggie-ingrained/"
     }
   ],
-  "mainMeals": [
+  "MainMeals": [
     {
       "id": "bbq-pork-combo",
       "name": "BBQ Pork Combo",
@@ -59,7 +59,7 @@
       "url": "https://www.eatclub.com/s/dish/Chicken-shawarma-rice-bowl-sajj/"
     }
   ],
-  "desserts": [
+  "Desserts": [
     {
       "id": "double-layer-pumpkin-cheesecake",
       "name": "Double Layer Pumpkin Cheesecake",
@@ -79,7 +79,7 @@
       "url": "http://allrecipes.com/recipe/10141/outrageous-chocolate-chip-cookies/"
     }
   ],
-  "drinks": [
+  "Drinks": [
     {
       "id": "coca-cola",
       "name": "Coca Cola",
@@ -99,7 +99,7 @@
       "url": "https://www.eatclub.com/snacks/catalog/"
     }
   ],
-  "snacks": [
+  "Snacks": [
     {
       "id": "mocha-candy-bar",
       "name": "Mocha Candy Bar",
