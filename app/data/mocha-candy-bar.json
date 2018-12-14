@@ -1,0 +1,14 @@
+{
+  "id": "mocha-candy-bar",
+  "name": "Mocha Candy Bar",
+  "img": "mocha-candy-bar.png",
+  "url": "http://www.ochocandy.com/shop/bars/ocho-mocha-bar/",
+  "description": "Made with an espresso nougat infused with organic coffee and covered in delicious milk chocolate, you have to taste this bar to understand why it is so popular.",
+  "rating": 5,
+  "calories": 170,
+  "reviews": [
+    "Smooth creamy milk chocolate with a scrumptiously rich nougat center, delicately coffee flavored so as not to overwhelm or subdue the union of the two most fundamental taste passions. Perfectly united in this candy bar from OCHO!",
+    "tasted good",
+    "A little disappointed - quite small."
+  ]
+}
