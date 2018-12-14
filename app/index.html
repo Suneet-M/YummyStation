@@ -40,7 +40,7 @@
 
 						<ul class="nav navbar-nav">
 							<li class="active"><a ui-sref="home">Home</a></li>
-							<li><a ng-href="#/">About</a></li>
+							<li><a ui-sref="menu">Menu</a></li>
 						</ul>
 					</div>
 				</div>
@@ -49,7 +49,7 @@
 
 		<div class="container">
 			<div ui-view></div>
-			<div ng-include="'views/menu.html'" ng-controller="MenuCtrl as menu"></div>
+			<!-- <div ng-include="'views/menu.html'" ng-controller="MenuCtrl as menu"></div> -->
 		</div>
 
 		<div class="footer">

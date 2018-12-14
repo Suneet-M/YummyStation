@@ -13,6 +13,7 @@ angular.module('yummyStationApp')
 
 		menuFetcher.getMenu()
 		.then(function(data) {
+			console.log('Menu received');
 			vm.data = data;
 		});
 	}]);

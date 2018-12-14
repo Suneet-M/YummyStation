@@ -11,6 +11,7 @@ angular.module('yummyStationApp')
 	.service('menuFetcher', function () {
 
 		this.getMenu = function() {
+			console.log('Getting menu data');
 			return $.get('/data/menu.json');
 		};
 

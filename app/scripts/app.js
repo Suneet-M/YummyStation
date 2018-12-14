@@ -19,5 +19,10 @@ angular
 			url: '/',
 			templateUrl: 'views/main.html',
 			controller: 'MainCtrl'
+		})
+		.state('menu', {
+			url: '/menu',
+			templateUrl: 'views/menu.html',
+			controller: 'MenuCtrl as menu'
 		});
 	}]);
