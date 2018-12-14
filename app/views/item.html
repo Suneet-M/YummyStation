@@ -1,0 +1,10 @@
+<h2 class="item-name">{{item.data.name}}</h2>
+<img class="item-image" ng-src="images/{{item.data.img}}">
+<h4 class="item-des"><em>{{item.data.description}}</em></h4>
+<p class="item-rating"><strong>Rating: </strong>{{item.data.rating}}</p>
+<p class="item-calories"><strong>Calories: </strong>{{item.data.calories}}</p>
+<p class="item-reviews"><strong>Reviews:</strong></p>
+<ul>
+	<li id="review" ng-repeat="review in item.data.reviews">{{review}}<br></li>
+</ul><br>
+<button class="select-item">Select item</button>

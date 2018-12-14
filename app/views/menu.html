@@ -2,9 +2,9 @@
 	<h3>{{food}}</h3>
 	<li ng-repeat="item in itemList"
 	class="col-sm-4 well">
-		<h4 class="item-name">{{item.name}}</h4>
-		<img ng-src="/images/{{item.img}}" class="item-image">
-		<p><a href="#" class="item-link">{{item.name}}</a></p>
+		<h4>{{item.name}}</h4>
+		<img ng-src="/images/{{item.img}}">
+		<p><a ui-sref="item({id: item.id})">Details</a></p>
 		<button class="select-item">Select item</button>
 	</li>
 </ul>

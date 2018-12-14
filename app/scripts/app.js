@@ -24,5 +24,10 @@ angular
 			url: '/menu',
 			templateUrl: 'views/menu.html',
 			controller: 'MenuCtrl as menu'
+		})
+		.state('item', {
+			url: '/menu/item/:id',
+			templateUrl: 'views/item.html',
+			controller: 'ItemCtrl as item'
 		});
 	}]);
