@@ -1,0 +1,122 @@
+{
+  "salads": [
+    {
+      "id": "salmon-couscous-and-arugula-salad",
+      "name": "Salmon Couscous & Arugula Salad",
+      "img": "salmon-couscous-and-arugula-salad.jpg",
+      "url": "https://www.eatclub.com/s/dish/Salmon-Couscous/"
+    },
+    {
+      "id": "greek-salad-with-chicken",
+      "name": "Greek Salad with Chicken",
+      "img": "greek-salad-with-chicken.jpg",
+      "url": "https://www.eatclub.com/s/dish/greek-chicken-salad-gsw/"
+    },
+    {
+      "id": "pear-and-goat-cheese-salad",
+      "name": "Pear and Goat Cheese Salad",
+      "img": "pear-and-goat-cheese-salad.jpg",
+      "url": "https://www.eatclub.com/s/dish/Pear-Goat-Cheese/"
+    }
+  ],
+  "sandwiches": [
+    {
+      "id": "chipotle-shrimp-wrap",
+      "name": "Chipotle Shrimp Wrap",
+      "img": "chipotle-shrimp-wrap.jpg",
+      "url": "https://www.eatclub.com/s/dish/chipotle-shrimp-vurvur/"
+    },
+    {
+      "id": "the-big-pig",
+      "name": "The Big Pig",
+      "img": "the-big-pig.jpg",
+      "url": "https://www.eatclub.com/s/dish/the-big-pig/"
+    },
+    {
+      "id": "very-veggie",
+      "name": "Very Veggie",
+      "img": "very-veggie.jpg",
+      "url": "https://www.eatclub.com/s/dish/very-veggie-ingrained/"
+    }
+  ],
+  "mainMeals": [
+    {
+      "id": "bbq-pork-combo",
+      "name": "BBQ Pork Combo",
+      "img": "bbq-pork-combo.jpg",
+      "url": "https://www.eatclub.com/s/dish/BBQ-Pork-Combo/"
+    },
+    {
+      "id": "the-cali-trio",
+      "name": "The Cali Trio",
+      "img": "the-cali-trio.jpg",
+      "url": "https://www.eatclub.com/s/dish/crispy-ca-spicy-ca/"
+    },
+    {
+      "id": "chicken-shawarma-rice-bowl",
+      "name": "Chicken Shawarma Rice Bowl",
+      "img": "chicken-shawarma-rice-bowl.jpg",
+      "url": "https://www.eatclub.com/s/dish/Chicken-shawarma-rice-bowl-sajj/"
+    }
+  ],
+  "desserts": [
+    {
+      "id": "double-layer-pumpkin-cheesecake",
+      "name": "Double Layer Pumpkin Cheesecake",
+      "img": "double-layer-pumpkin-cheesecake.jpg",
+      "url": "http://allrecipes.com/recipe/13477/double-layer-pumpkin-cheesecake/"
+    },
+    {
+      "id": "creamy-rice-pudding",
+      "name": "Creamy Rice Pudding",
+      "img": "creamy-rice-pudding.jpg",
+      "url": "http://allrecipes.com/recipe/24059/creamy-rice-pudding/"
+    },
+    {
+      "id": "outrageous-chocolate-chip-cookies",
+      "name": "Outrageous Chocolate Chip Cookies",
+      "img": "outrageous-chocolate-chip-cookies.jpg",
+      "url": "http://allrecipes.com/recipe/10141/outrageous-chocolate-chip-cookies/"
+    }
+  ],
+  "drinks": [
+    {
+      "id": "coca-cola",
+      "name": "Coca Cola",
+      "img": "coca-cola.png",
+      "url": "https://www.eatclub.com/snacks/catalog/"
+    },
+    {
+      "id": "blackberry-water",
+      "name": "Blackberry Water",
+      "img": "blackberry-water.jpg",
+      "url": "https://www.eatclub.com/snacks/catalog/"
+    },
+    {
+      "id": "red-bull",
+      "name": "Red Bull",
+      "img": "red-bull.png",
+      "url": "https://www.eatclub.com/snacks/catalog/"
+    }
+  ],
+  "snacks": [
+    {
+      "id": "mocha-candy-bar",
+      "name": "Mocha Candy Bar",
+      "img": "mocha-candy-bar.png",
+      "url": "https://www.eatclub.com/snacks/catalog/"
+    },
+    {
+      "id": "strawberry-yogurt",
+      "name": "Strawberry Yogurt",
+      "img": "strawberry-yogurt.jpg",
+      "url": "https://www.eatclub.com/snacks/catalog/"
+    },
+    {
+      "id": "simply-sweet-potato-tortilla-chips",
+      "name": "Simply Sweet Potato Tortilla Chips",
+      "img": "simply-sweet-potato-tortilla-chips.png",
+      "url": "https://www.eatclub.com/snacks/catalog/"
+    }
+  ]
+}
