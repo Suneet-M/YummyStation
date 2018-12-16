@@ -9,6 +9,7 @@ version 0.16.0.
 All the JSON files in the data folder have been gathered from Udacity's App [repo](https://github.com/udacity/FEF-UdaciMeals-Angular), and I take no credit for it.
 
 ## Build & development
+After downloading, run `npm install && bower install` in the cloned repo's directory.\
 Run `grunt` for building and `grunt serve` for preview.
 
 ## Testing
