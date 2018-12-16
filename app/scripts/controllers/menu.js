@@ -8,12 +8,7 @@
  * Controller of the yummyStationApp
  */
 angular.module('yummyStationApp')
-	.controller('MenuCtrl', ['menuFetcher', function (menuFetcher) {
-		const vm = this;
-
-		menuFetcher.getMenu()
-		.then(function(data) {
-			console.log('Menu received');
-			vm.data = data;
-		});
-	}]);
+	.controller('MenuCtrl', function(menu) {
+		console.log('Menu received');
+		this.data = menu;
+	});

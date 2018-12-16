@@ -8,14 +8,7 @@
  * Controller of the yummyStationApp
  */
 angular.module('yummyStationApp')
-	.controller('ItemCtrl', ['$stateParams', 'itemFetcher', function (params, itemFetcher) {
-
-		const vm = this,
-		id = params.id;
-
-		itemFetcher.getItem(id)
-		.then(function(item) {
-			console.log('Dish received');
-			vm.data = item;
-		});
-	}]);
+	.controller('ItemCtrl', function(item) {
+		console.log('Dish received');
+		this.data = item;
+	});
