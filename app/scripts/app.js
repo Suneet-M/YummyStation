@@ -21,7 +21,7 @@ angular
 			controller: 'MainCtrl'
 		})
 		.state('menu', {
-			url: '/menu',
+			url: '/Menu',
 			templateUrl: 'views/menu.html',
 			controller: 'MenuCtrl as menu',
 			resolve: {
@@ -31,7 +31,7 @@ angular
 			}
 		})
 		.state('item', {
-			url: '/menu/item/:id',
+			url: '/Menu/Items/:type/:id',
 			templateUrl: 'views/item.html',
 			controller: 'ItemCtrl as item',
 			resolve: {

@@ -7,4 +7,4 @@
 <ul>
 	<li id="review" ng-repeat="review in item.data.reviews">{{review}}<br></li>
 </ul><br>
-<button class="select-item">Select item</button>
+<button class="select-item" ng-click="item.selectItem(item.data.name)">Select item</button>

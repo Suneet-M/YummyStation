@@ -4,7 +4,7 @@
 	class="col-sm-4 well">
 		<h4>{{item.name}}</h4>
 		<img ng-src="/images/{{item.img}}">
-		<p><a ui-sref="item({id: item.id})">Details</a></p>
+		<p><a ui-sref="item({type: food, id: item.id})">Details</a></p>
 		<button class="select-item" ng-click="menu.selectItem(food, item.name)">Select item</button>
 	</li>
 </ul>
