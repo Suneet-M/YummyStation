@@ -5,6 +5,6 @@
 		<h4>{{item.name}}</h4>
 		<img ng-src="/images/{{item.img}}">
 		<p><a ui-sref="item({id: item.id})">Details</a></p>
-		<button class="select-item">Select item</button>
+		<button class="select-item" ng-click="menu.selectItem(food, item.name)">Select item</button>
 	</li>
 </ul>

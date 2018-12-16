@@ -39,5 +39,10 @@ angular
 					return itemFetcher.getItem(params.id);
 				}]
 			}
+		})
+		.state('cart', {
+			url: '/cart',
+			templateUrl: 'views/cart.html',
+			controller: 'CartCtrl as cart'
 		});
 	}]);
