@@ -1,7 +1,8 @@
-<h2>Your Orders:</h2>
+<h2 ng-if="cart.listLength > 1">Your Orders:</h2>
 <div ng-repeat="(foodType, itemList) in cart.orders">
 	<h3>{{foodType}}</h3>
 	<ul>
 		<li ng-repeat="item in itemList">{{item}} x 1</li>
 	</ul>
 </div>
+<h5 ng-if="cart.listLength == 0">You must be starving...<br><br>Hurry, grab something delicious from the Menu!!!</h5>

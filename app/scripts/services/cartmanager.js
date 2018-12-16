@@ -8,21 +8,20 @@
  * Service in the yummyStationApp.
  */
 angular.module('yummyStationApp')
-  .service('cartManager', function () {
-    this.orderList = {};
+	.service('cartManager', function () {
+		this.orderList = {};
 
-    this.addToCart = function(foodType, foodItem) {
-    	if(!this.orderList[foodType]) {
-    		this.orderList[foodType] = [];
-    	}
-    	this.orderList[foodType].push(foodItem);
-    	console.log('Item added');
-    	console.log(this.orderList);
-    };
+		this.addToCart = function(foodType, foodItem) {
+			if(!this.orderList[foodType]) {
+				this.orderList[foodType] = [];
+			}
+			this.orderList[foodType].push(foodItem);
+			console.log('New order added');
+		};
 
-    this.getCart = function() {
-    	console.log('Getting orders');
-    	return this.orderList;
-    };
+		this.getCart = function() {
+			console.log('Getting orders');
+			return this.orderList;
+		};
 
-  });
+	});

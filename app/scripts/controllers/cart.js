@@ -8,6 +8,7 @@
  * Controller of the yummyStationApp
  */
 angular.module('yummyStationApp')
-  .controller('CartCtrl', ['cartManager', function (cartManager) {
-  	this.orders = cartManager.getCart();
-  }]);
+	.controller('CartCtrl', ['cartManager', function (cartManager) {
+		this.orders = cartManager.getCart();
+		this.listLength = Object.keys(this.orders).length;
+	}]);
