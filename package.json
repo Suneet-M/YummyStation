@@ -31,5 +31,14 @@
   },
   "engines": {
     "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "cryptiles": "^4.1.2",
+    "fresh": "^0.5.2",
+    "lodash": "^4.17.5",
+    "mime": "^1.4.1",
+    "minimatch": "^3.0.2",
+    "negotiator": "^0.6.1",
+    "uglify-js": "^2.6.4"
   }
 }
