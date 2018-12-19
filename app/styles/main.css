@@ -118,3 +118,14 @@ h5 {
   margin: 40px;
   font-size: 1.3em;
 }
+
+/* Cart Styles */
+
+.remove-item:after {
+  content: "\00d7";
+  color: #f00;
+  font-size: 1.5em;
+  margin-left: 8px;
+  display: inline-block;
+  cursor: pointer;
+}

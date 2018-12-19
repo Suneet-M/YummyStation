@@ -30,10 +30,23 @@ angular.module('yummyStationApp')
 			}
 
 			foodTypeInOrderList[foodItem] = count;
-			console.log('New order added');
 
 			//Passing the update back to orderList
 			this.orderList[foodType] = foodTypeInOrderList;
+			console.log('New order added');
+		};
+
+		this.reduceInCart = function(foodType, item) {
+			this.orderList[foodType][item] -= 1;
+		};
+
+		this.removeFromCart = function(foodType, item) {
+			delete this.orderList[foodType][item];
+
+			//Check if the food type has no orders left and delete it
+			if ($.isEmptyObject(this.orderList[foodType])) {
+				delete this.orderList[foodType];
+			}
 		};
 
 		this.getCart = function() {
