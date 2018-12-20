@@ -228,7 +228,6 @@ module.exports = function (grunt) {
         src: [
           '<%= yeoman.docs %>/scripts/{,*/}*.js',
           '<%= yeoman.docs %>/styles/{,*/}*.css',
-          '<%= yeoman.docs %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
           '<%= yeoman.docs %>/styles/fonts/*'
         ]
       }
