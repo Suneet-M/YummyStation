@@ -19,7 +19,7 @@ angular.module('yummyStationApp')
 			if (count > 1) {
 				cartManager.reduceInCart(foodType, item);
 			} else {
-				cartManager.removeFromCart(foodType, item)
+				cartManager.removeFromCart(foodType, item);
 			}
 		};
 	}]);

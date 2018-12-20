@@ -12,7 +12,7 @@ angular.module('yummyStationApp')
 		this.orderList = {};
 
 		this.addToCart = function(foodType, foodItem) {
-			let count, //For number of orders of same dish
+			var count, //For number of orders of same dish
 			//Assign to a variable for ease of typing
 			foodTypeInOrderList = this.orderList[foodType];
 

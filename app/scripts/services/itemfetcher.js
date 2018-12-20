@@ -12,7 +12,7 @@ angular.module('yummyStationApp')
 
   	this.getItem = function(id) {
   		console.log('Getting dish');
-  		return $.get(`/data/${id}.json`);
+		return $.get('/data/' + id + '.json');
   	};
 
   });
