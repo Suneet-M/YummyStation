@@ -12,7 +12,7 @@ angular.module('yummyStationApp')
 
 		this.getMenu = function() {
 			console.log('Getting menu data');
-			return $.get('/data/menu.json');
+			return $.get('data/menu.json');
 		};
 
 	});
