@@ -1,0 +1,14 @@
+{
+  "id": "very-veggie",
+  "name": "Very Veggie",
+  "img": "very-veggie.jpg",
+  "url": "https://www.eatclub.com/s/dish/very-veggie-ingrained/",
+  "description": "Geez that’s a lot of veggies. Sliced Havarti cheese, avocado, sprouts, sun-dried tomato pesto, Greenleaf lettuce, sliced tomatoes, and shaved red onions on thick-cut, soft wheat bread. Served with mustard and mayonnaise, Kettle chips, and a chocolate chip cookie.",
+  "rating": 3.8,
+  "calories": 833,
+  "reviews": [
+    "One of the best vegetarian things I've found on EAT Club so far.",
+    "very dry, cheese was stale",
+    "Veggies were not fresh. They were all soggy. Has potential if you get a fresh batch"
+  ]
+}

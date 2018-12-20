@@ -1,0 +1,14 @@
+{
+  "id": "red-bull",
+  "name": "Red Bull",
+  "img": "red-bull.png",
+  "url": "https://www.eatclub.com/snacks/catalog/",
+  "description": "Red Bull Energy Drink is a functional beverage providing various benefits.",
+  "rating": 4.8,
+  "calories": 110,
+  "reviews": [
+    "I LOVE this drink - I drink it every day.",
+    "It gave me a lot of energy - awesome!",
+    "too sugary"
+  ]
+}
